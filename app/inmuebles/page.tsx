@@ -73,7 +73,7 @@ export default function InmueblesPage() {
         <section className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4" />
         <footer className="mt-12 py-8">
           <div className="container mx-auto flex flex-col items-center space-y-4 px-4">
-            <img alt="TokenKey logo" className="h-12" src="/placeholder.svg" />
+          <Logo />
             <p className="text-center text-sm text-gray-600">
               Invierte como los grandes del mercado inmobiliario, con un riesgo extremadamente controlado mediante un
               activo real y a partir de una aportación mínima, que te traerá proporcionalmente el mismo porcentaje de
