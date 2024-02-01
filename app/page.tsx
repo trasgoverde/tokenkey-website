@@ -2,13 +2,14 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { CardContent, Card } from "@/components/ui/card"
+import Logo from '@/components/icons/Logo';
 
 export default function Home() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <nav className="flex justify-between items-center py-6">
         <div className="flex items-center space-x-4">
-          <FlagIcon className="h-8 w-8" />
+          <Logo  className="h-8 w-8" />
           <span className="font-bold text-xl">TokenKey</span>
         </div>
         <div className="flex space-x-4">
