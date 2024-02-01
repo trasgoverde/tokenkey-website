@@ -1,36 +1,65 @@
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/xVlutpvh4Ob
- * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
- */
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { CardContent, Card } from "@/components/ui/card"
 import { Image } from "next/image";
+import MaxWidthWrapper from "@/components/MaxWidthWrapper";
+import Logo from '@/components/icons/Logo';
+import MobileNav from '@/components/MobileNav';
+import { ArrowRight } from "lucide-react";
 
-export default function Component() {
+export default function LandingPage() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <nav className="flex justify-between items-center py-6">
-        <div className="flex items-center space-x-4">
-          <FlagIcon className="h-8 w-8" />
-          <span className="font-bold text-xl">TokenKey</span>
-        </div>
-        <div className="flex space-x-4">
-          <Link className="text-gray-500 hover:text-gray-700" href="#">
-            Inicio
-          </Link>
-          <Link className="text-gray-500 hover:text-gray-700" href="#">
-            Inmuebles
-          </Link>
-          <Link className="text-gray-500 hover:text-gray-700" href="#">
-            Mi perfil
-          </Link>
-          <Link className="text-gray-500 hover:text-gray-700" href="#">
-            Ayuda
-          </Link>
-        </div>
-      </nav>
+      
+      <div className='sticky h-14 inset-x-0 top-0 z-30 w-full border-b border-gray-200 bg-white/75 backdrop-blur-lg transition-all'>
+        <MaxWidthWrapper>
+            
+            
+          <div className='flex h-14 items-center justify-between border-b border-zinc-200'>
+            <Logo />
+            <Link
+            
+              href='/'
+              className='flex z-30 font-bold pr-10 text-lg'>
+              <span>TokenKey | Real World Assets</span>
+            </Link>
+
+            <MobileNav />
+
+            <div className='hidden items-center text-lg space-x-8 sm:flex'>
+            <Link
+                href='/Inicio'
+                >
+                Inicio
+              </Link>
+              <Link
+                href='/company'
+                >
+                Compañia
+              </Link>
+              <Link
+                href='/inmuebles'
+               >
+                Inmuebles
+              </Link>
+              <Link
+                href='/ayuda'
+                >
+                Ayuda
+                </Link>
+
+              <Link
+                href='/sign-up' // Provide the href attribute here
+                >
+                Empezar{' '}
+                <ArrowRight className='ml-1.5 h-5 w-5' />
+              </Link>
+
+              
+            </div>
+          </div>
+        </MaxWidthWrapper>
+      </div>
       <header className="text-center py-10">
         <h1 className="text-6xl font-bold">TokenKey</h1>
         <p className="mt-4 text-lg text-gray-600">El presente de la inversión en el sector inmobiliario</p>
