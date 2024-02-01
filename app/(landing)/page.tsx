@@ -1,7 +1,9 @@
+"use client"
+
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { CardContent, Card } from "@/components/ui/card"
-import { Image } from "next/image";
+import { img } from "next/img";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import Logo from '@/components/icons/Logo';
 import MobileNav from '@/components/MobileNav';
@@ -52,7 +54,6 @@ export default function LandingPage() {
                 href='/sign-up' // Provide the href attribute here
                 >
                 Empezar{' '}
-                <ArrowRight className='ml-1.5 h-5 w-5' />
               </Link>
 
               
@@ -72,7 +73,7 @@ export default function LandingPage() {
         </Button>
       </header>
       <div className="flex justify-center items-center py-10">
-        <image
+        <img
           alt="Tokenization illustration"
           className="max-w-full h-auto"
           src="/group-10@2x.png"
@@ -97,7 +98,7 @@ export default function LandingPage() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
           <Card className="w-full">
             <CardContent>
-              <image
+              <img
                 alt="Residential property"
                 className="w-full h-auto"
                 src="/rectangle-6@2x.png"
@@ -111,7 +112,7 @@ export default function LandingPage() {
           </Card>
           <Card className="w-full">
             <CardContent>
-              <image
+              <img
                 alt="Industrial property"
                 className="w-full h-auto"
                 src="/rectangle-8@2x.png"
@@ -124,7 +125,7 @@ export default function LandingPage() {
           </Card>
           <Card className="w-full">
             <CardContent>
-              <image
+              <img
                 alt="Commercial property"
                 className="w-full h-auto"
                 src="/rectangle-7@2x.png"
