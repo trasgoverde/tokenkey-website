@@ -107,7 +107,7 @@ export default function LandingPage() {
                 alt="Residential property"
                 className="w-full h-auto"
                 height="200"
-                src="/placeholder.svg"
+                src="/rectangle-6@2x.png"
                 style={{
                   aspectRatio: "300/200",
                   objectFit: "cover",
@@ -127,7 +127,7 @@ export default function LandingPage() {
                 alt="Industrial property"
                 className="w-full h-auto"
                 height="200"
-                src="/placeholder.svg"
+                src="/rectangle-8@2x.png"
                 style={{
                   aspectRatio: "300/200",
                   objectFit: "cover",
@@ -146,7 +146,7 @@ export default function LandingPage() {
                 alt="Commercial property"
                 className="w-full h-auto"
                 height="200"
-                src="/placeholder.svg"
+                src="/rectangle-7@2x.png"
                 style={{
                   aspectRatio: "300/200",
                   objectFit: "cover",
