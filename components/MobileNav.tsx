@@ -42,7 +42,6 @@ const MobileNav = ({ isAuth }: { isAuth: boolean }) => {
                     className='flex items-center w-full font-semibold text-green-600'
                     href='/sign-up'>
                     Empezar
-                    <ArrowRight className='ml-2 h-5 w-5' />
                   </Link>
                 </li>
                 <li className='my-3 h-px w-full bg-gray-300' />

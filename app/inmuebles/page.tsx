@@ -50,7 +50,6 @@ export default function InmueblesPage() {
                 href='/sign-up' // Provide the href attribute here
                 >
                 Empezar{' '}
-                <ArrowRight className='ml-1.5 h-5 w-5' />
               </Link>
             </div>
           </div>
@@ -80,17 +79,17 @@ export default function InmueblesPage() {
               beneficio que la inversión total.
             </p>
             <Button variant="outline">En breves estará disponible</Button>
-            <div className="flex space-x-4">
-              <a className="text-xs text-gray-500 hover:text-gray-700" href="#">
-                PRIVACY POLICY
-              </a>
-              <a className="text-xs text-gray-500 hover:text-gray-700" href="#">
-                COOKIES POLICY
-              </a>
-              <a className="text-xs text-gray-500 hover:text-gray-700" href="#">
-                LEGAL NOTICE
-              </a>
-            </div>
+            <div className="flex justify-center space-x-4 mt-4">
+          <Link className="text-gray-500 hover:text-gray-700" href="#">
+            Política de Privacidad
+          </Link>
+          <Link className="text-gray-500 hover:text-gray-700" href="#">
+            Uso de Cookies
+          </Link>
+          <Link className="text-gray-500 hover:text-gray-700" href="#">
+            Aviso Legal
+          </Link>
+        </div>
           </div>
         </footer>
       </main>

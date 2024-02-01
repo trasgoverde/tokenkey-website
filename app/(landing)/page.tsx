@@ -172,6 +172,7 @@ export default function LandingPage() {
           </div>
         </div>
       </section>
+      
       <footer className="py-10">
         <div className="flex justify-between items-center">
           <span className="text-gray-600">TokenKey</span>
@@ -179,13 +180,13 @@ export default function LandingPage() {
         </div>
         <div className="flex justify-center space-x-4 mt-4">
           <Link className="text-gray-500 hover:text-gray-700" href="#">
-            PRIVACY POLICY
+            Política de Privacidad
           </Link>
           <Link className="text-gray-500 hover:text-gray-700" href="#">
-            COOKIES POLICY
+            Uso de Cookies
           </Link>
           <Link className="text-gray-500 hover:text-gray-700" href="#">
-            LEGAL NOTICE
+            Aviso Legal
           </Link>
         </div>
       </footer>

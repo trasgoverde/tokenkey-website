@@ -16,6 +16,7 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
     "ethers": "^6.10.0",
+    "lucide": "^0.321.0",
     "lucide-react": "^0.320.0",
     "magic-sdk": "^22.0.0",
     "make-magic": "^4.8.0",
