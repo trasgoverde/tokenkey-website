@@ -75,13 +75,7 @@ export default function LandingPage() {
         <image
           alt="Tokenization illustration"
           className="max-w-full h-auto"
-          height="400"
-          src="/placeholder.svg"
-          style={{
-            aspectRatio: "600/400",
-            objectFit: "cover",
-          }}
-          width="600"
+          src="/group-10@2x.png"
         />
       </div>
       <section className="py-10">
@@ -106,13 +100,7 @@ export default function LandingPage() {
               <image
                 alt="Residential property"
                 className="w-full h-auto"
-                height="200"
                 src="/rectangle-6@2x.png"
-                style={{
-                  aspectRatio: "300/200",
-                  objectFit: "cover",
-                }}
-                width="300"
               />
               <h3 className="mt-4 text-xl font-semibold">Residencial</h3>
               <p className="text-gray-600">
@@ -126,13 +114,7 @@ export default function LandingPage() {
               <image
                 alt="Industrial property"
                 className="w-full h-auto"
-                height="200"
                 src="/rectangle-8@2x.png"
-                style={{
-                  aspectRatio: "300/200",
-                  objectFit: "cover",
-                }}
-                width="300"
               />
               <h3 className="mt-4 text-xl font-semibold">Industrial</h3>
               <p className="text-gray-600">
@@ -145,13 +127,7 @@ export default function LandingPage() {
               <image
                 alt="Commercial property"
                 className="w-full h-auto"
-                height="200"
                 src="/rectangle-7@2x.png"
-                style={{
-                  aspectRatio: "300/200",
-                  objectFit: "cover",
-                }}
-                width="300"
               />
               <h3 className="mt-4 text-xl font-semibold">Comercial</h3>
               <p className="text-gray-600">Principalmente edificaciones comerciales en zonas prime.</p>
