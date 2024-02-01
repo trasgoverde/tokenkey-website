@@ -1,9 +1,14 @@
-import Image from "next/image";
-import { Button } from "@/components/ui/button"
+/**
+ * v0 by Vercel.
+ * @see https://v0.dev/t/xVlutpvh4Ob
+ * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
+ */
 import Link from "next/link"
+import { Button } from "@/components/ui/button"
 import { CardContent, Card } from "@/components/ui/card"
+import { Image } from "next/image";
 
-export default function Home() {
+export default function Component() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <nav className="flex justify-between items-center py-6">
@@ -276,4 +281,3 @@ function StoreIcon(props) {
     </svg>
   )
 }
-
