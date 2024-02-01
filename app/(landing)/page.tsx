@@ -69,7 +69,7 @@ export default function LandingPage() {
           permitiendo así que pequeños inversores puedan acceder a grandes beneficios.
         </p>
         <Button className="mt-4" variant="secondary">
-          En breves estará disponible
+          En breve estará disponible
         </Button>
       </header>
       <div className="flex justify-center items-center py-10">
@@ -105,7 +105,7 @@ export default function LandingPage() {
               />
               <h3 className="mt-4 text-xl font-semibold">Residencial</h3>
               <p className="text-gray-600">
-                Viviendas para uso residencial, principalmente en zonas de playa y en su gran mayoría provinientes de
+                Viviendas para uso residencial, principalmente en zonas de playa y en su gran mayoría provenientes de
                 adjudicaciones.
               </p>
             </CardContent>
@@ -119,7 +119,7 @@ export default function LandingPage() {
               />
               <h3 className="mt-4 text-xl font-semibold">Industrial</h3>
               <p className="text-gray-600">
-                Naves industriales en polígonos altamente demandados, provinientes de adjudicaciones.
+                Naves industriales en polígonos altamente demandados, provenientes de adjudicaciones.
               </p>
             </CardContent>
           </Card>
@@ -177,7 +177,7 @@ export default function LandingPage() {
       <footer className="py-10">
         <div className="flex justify-between items-center">
           <span className="text-gray-600">TokenKey</span>
-          <Button variant="secondary">En breves estará disponible</Button>
+          <Button variant="secondary">En breve estará disponible</Button>
         </div>
         <div className="flex justify-center space-x-4 mt-4">
           <Link className="text-gray-500 hover:text-gray-700" href="#">

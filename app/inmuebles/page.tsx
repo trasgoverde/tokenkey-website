@@ -78,7 +78,7 @@ export default function InmueblesPage() {
               activo real y a partir de una aportación mínima, que te traerá proporcionalmente el mismo porcentaje de
               beneficio que la inversión total.
             </p>
-            <Button variant="outline">En breves estará disponible</Button>
+            <Button variant="outline">En breve estará disponible</Button>
             <div className="flex justify-center space-x-4 mt-4">
           <Link className="text-gray-500 hover:text-gray-700" href="#">
             Política de Privacidad
