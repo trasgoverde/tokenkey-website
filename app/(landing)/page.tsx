@@ -28,7 +28,7 @@ export default function LandingPage() {
 
             <div className='hidden items-center text-lg space-x-8 sm:flex'>
             <Link
-                href='/Inicio'
+                href='/'
                 >
                 Inicio
               </Link>

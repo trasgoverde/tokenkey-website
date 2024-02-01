@@ -26,7 +26,7 @@ export default function InmueblesPage() {
             <MobileNav />
             <div className='hidden items-center text-lg space-x-8 sm:flex'>
             <Link
-                href='/Inicio'
+                href='/'
                 >
                 Inicio
               </Link>
