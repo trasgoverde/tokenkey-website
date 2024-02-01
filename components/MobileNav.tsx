@@ -14,7 +14,7 @@ const MobileNav = ({ isAuth }: { isAuth: boolean }) => {
 
   useEffect(() => {
     if (isOpen) toggleOpen()
-  }, [pathname])
+  }, [isOpen, pathname])
 
   const closeOnCurrent = (href: string) => {
     if (pathname === href) {
@@ -41,30 +41,20 @@ const MobileNav = ({ isAuth }: { isAuth: boolean }) => {
                     }
                     className='flex items-center w-full font-semibold text-green-600'
                     href='/sign-up'>
-                    Get started
+                    Empezar
                     <ArrowRight className='ml-2 h-5 w-5' />
                   </Link>
                 </li>
                 <li className='my-3 h-px w-full bg-gray-300' />
-                <li>
-                  <Link
-                    onClick={() =>
-                      closeOnCurrent('/sign-in')
-                    }
-                    className='flex items-center w-full font-semibold'
-                    href='/sign-in'>
-                    Sign in
-                  </Link>
-                </li>
                 <li className='my-3 h-px w-full bg-gray-300' />
                 <li>
                 <Link
                     onClick={() =>
-                      closeOnCurrent('/product')
+                      closeOnCurrent('/inicio')
                     }
                     className='flex items-center w-full font-semibold'
-                    href='/product'>
-                    Product
+                    href='/inicio'>
+                    Inicio
                   </Link>
                 </li>
                 <li>
@@ -74,27 +64,27 @@ const MobileNav = ({ isAuth }: { isAuth: boolean }) => {
                     }
                     className='flex items-center w-full font-semibold'
                     href='/company'>
-                    Company
+                    Compañia
                   </Link>
                 </li>
                 <li>
                   <Link
                     onClick={() =>
-                      closeOnCurrent('/pricing')
+                      closeOnCurrent('/inmuebles')
                     }
                     className='flex items-center w-full font-semibold'
-                    href='/pricing'>
-                    Pricing
+                    href='/inmuebles'>
+                    Inmuebles
                   </Link>
                 </li>
                 <li>
                   <Link
                     onClick={() =>
-                      closeOnCurrent('/resources')
+                      closeOnCurrent('/ayuda')
                     }
                     className='flex items-center w-full font-semibold'
-                    href='/resources'>
-                    Resources
+                    href='/ayuda'>
+                    Ayuda
                   </Link>
                 </li>
 
