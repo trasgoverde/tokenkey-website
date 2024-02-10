@@ -6,6 +6,7 @@ import AppNavigation from "./AppNavigation";
 import { UserContext } from "@/context/UserContext";
 import { Web3Context } from "@/context/Web3Context";
 import { magic } from "@/lib/magic";
+import Web3 from "web3";
 
 export default function AppHeader({}) {
   const [navbarOpen, setNavbarOpen] = useState(false);

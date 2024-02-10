@@ -11,7 +11,7 @@ export async function getUserData(web3) {
 
     // Get the user's balance
     const balanceInWei = await web3.eth.getBalance(address);
-    const balance = web3.utils2.fromWei(balanceInWei);
+    const balance = web3.utils.fromWei(balanceInWei);
 
     // Truncate the user's address for display purposes
     const shortAddress = `${address.substring(0, 5)}...${address.substring(

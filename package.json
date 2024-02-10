@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@everipedia/wagmi-magic-connector": "^1.0.2",
     "@radix-ui/react-checkbox": "^1.0.4",
     "@radix-ui/react-slot": "^1.0.2",
     "@types/webextension-polyfill": "^0.10.7",
@@ -19,7 +18,7 @@
     "ethers": "^6.10.0",
     "lucide": "^0.321.0",
     "lucide-react": "^0.320.0",
-    "magic-sdk": "^22.0.1",
+    "magic-sdk": "^22.0.0",
     "make-magic": "^4.8.0",
     "moralis": "^2.24.2",
     "next": "14.1.0",

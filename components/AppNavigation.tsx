@@ -3,7 +3,7 @@ import Navmodule from "@/styles/Nav.module.css";
 
 export default function AppNavigation({}) {
   return (
-    <ul className={styles.linkArea}>
+    <ul className="items-center justify-between flex-grow w-full bg-white lg:flex">
       <li>
         <Link href={"/collectibles"}>My Collection</Link>
       </li>
